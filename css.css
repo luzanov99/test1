@@ -33,8 +33,17 @@ body{
     font-family:cursive;
     text-decoration: none;
     
-    color: #1abdc6;
+    color: #aded70;
 }
+
+.links-list a:hover {
+
+    background-color: #7c7c7c;
+    opacity: 0.5;
+}
+
+
+
 .image-block{
     
     float: right;
@@ -141,7 +150,7 @@ body{
         font-family:cursive;
         font-size: 30px;
         padding: 5px;
-        color: #1abdc6;
+        color: #aded70;
         text-decoration: none;
     }
     .phone{
@@ -186,7 +195,7 @@ body{
         font-family:cursive;
         text-decoration: none;
         padding: 20px;
-        color: #1abdc6;
+        color: #aded70;
     }
 }
 
@@ -260,6 +269,7 @@ body{
     }
     .links-list a{
         font-size: 25px;
+        font-family: cursive;
     }
  .phone{
         margin-top: 80px;
@@ -333,7 +343,7 @@ body{
         text-decoration: none;
         font-size: 20px;
         padding: 5px;
-        color: #1abdc6;
+        color: #aded70;
     }
  .phone{
         margin-top: 150px;
