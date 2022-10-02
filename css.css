@@ -222,7 +222,21 @@ body{
         margin-top: 10px;
     }
 }
+@media (max-height: 800px) {
+    .links-list{
+        position:fixed;
+        right: -150px;
+        margin-right:50px;
+        width: 500px;
+        float: right;
+        height: 100%;
+        min-width: px;
+        font-size: 25px;
+    
+    }
 
+
+}
 @media (max-height: 600px) {
     .container{
         max-width: 100%;
@@ -298,7 +312,7 @@ body{
     }
 
     .links-list{
-        right:-300px;
+        right:-230px;
 
     }
 
