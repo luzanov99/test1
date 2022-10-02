@@ -32,8 +32,9 @@ body{
     text-align: right;
     font-family:DejaVu Sans Mono, monospace ;
     text-decoration: none;
-    
     color: white;
+    font-weight: bolder;
+    
 }
 
 .links-list a:hover {
@@ -312,7 +313,7 @@ body{
     }
 
     .links-list{
-        right:-230px;
+        right:-250px;
 
     }
 
