@@ -143,7 +143,6 @@ body{
 
 
 
-
 @media (max-width: 1300px) {
     .container{
         max-width: 100%;
@@ -155,7 +154,7 @@ body{
     .links-list a{
         text-align: right;
         font-family:DejaVu Sans Mono, monospace;
-        font-size: 30px;
+        font-size: 25px;
         padding: 5px;
         color: #aded70;
         text-decoration: none;
