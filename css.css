@@ -188,7 +188,10 @@ body{
         background-position: center;
         height: 100%;
     }
-
+    .links-list a{
+        font-size: 10px;
+        font-family: DejaVu Sans Mono, monospace;
+    }
     .phone{
         margin-top: 100px;
         
