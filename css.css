@@ -4,11 +4,10 @@ body{
 }
 
 .container{
-    max-width: 100%;
-    background-image: url("background1.jpg") ;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
+    max-width: 2500;
+    background-color: #161616;
+    max-height: 2500;
+    
 }
 .wrapper{
     height: 100%;
@@ -17,37 +16,29 @@ body{
 
 .links-list{
     
-    position: fixed;
-    right: -50px;
-    margin-right:50px;
-    width: 600px;
-    float: right;
-    height: 100%;
-    min-width: px;
-    font-size: 25px;
-    
-    
+    width: 375px;
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
 }
+
 .links-list a{
     text-align: right;
-    font-family:DejaVu Sans Mono, monospace ;
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
+    font-family:DejaVu Sans Mono, monospace;
+    font-size: 25px;
     
+    color:#aded70 ;
+    text-decoration: none;
 }
 
 .links-list a:hover {
 
     background-color: #7c7c7c;
-    opacity: 0.5;
+    opacity: 0.9;
 }
-
-
 
 .image-block{
     
-    float: right;
+
     width: 300px;
     height: 150px;
 }
@@ -59,7 +50,7 @@ body{
 
 
 .phone{
-    margin-top: 100px;
+    
     
     display: flex;
     
@@ -71,7 +62,7 @@ body{
 
 
 .insta{
-    margin-top: 30px;
+   
     
     display: flex;
 }
@@ -83,7 +74,7 @@ body{
 
 
 .telega{
-    margin-top: 30px;
+    
     
     display: flex;
 }
@@ -93,7 +84,7 @@ body{
 }
 
 .tiktok{
-    margin-top: 30px;
+   
     
     display: flex;
 }
@@ -104,7 +95,7 @@ body{
 }
 
 .google-map{    
-    margin-top: 30px;
+    
     display: flex;
 }
 .logo-google-map{
@@ -112,6 +103,10 @@ body{
     height: 100px;
 }
 
+.icon{
+    width: 100px;
+    height: 100px;
+}
 .info_phone{
 
     padding: 25px;
@@ -135,297 +130,4 @@ body{
 .info-google-map{
 
     padding: 25px;
-}
-
-
-
-
-
-
-
-
-@media (max-width: 1300px) {
-    .container{
-        max-width: 100%;
-        background-image: url("background1.jpg") ;
-        background-size: cover;
-        background-position: center;
-        height: 100%;
-    }
-    .links-list a{
-        text-align: right;
-        font-family:DejaVu Sans Mono, monospace;
-        font-size: 25px;
-        padding: 5px;
-        color:white;;
-        text-decoration: none;
-    }
-    .phone{
-        margin-top: 100px;
-    
-    display: flex;
-    }
-    .links-list{
-        position:fixed;
-        right: -250px;
-        margin-right:50px;
-        width: 600px;
-        float: right;
-        height: 100%;
-        min-width: px;
-        font-size: 25px;
-    
-    }
-
-}
-@media (max-width: 850px) {
-    .links-list{
-        position:fixed;
-        right: -200px;
-        margin-right:50px;
-        width: 600px;
-        float: right;
-        height: 100%;
-        min-width: px;
-        font-size: 25px;
-    
-    }
-
-    
-}
-@media (max-width: 800px) {
-    .links-list{
-        position:fixed;
-        right: -100px;
-        margin-right:50px;
-        width: 500px;
-        float: right;
-        height: 100%;
-        min-width: px;
-        font-size: 25px;
-    
-    }
-
-    .telega{
-        margin-top: 10px;
-    }
-    .phone{
-        margin-top: 80px;
-    }
-
-    .google-map{
-        margin-top: 10px;
-    }
-    .tiktok{
-        margin-top: 10px;
-    }
-    .insta{
-        margin-top: 10px;
-    }
-}
-@media (max-height: 800px) {
-    .links-list{
-        position:fixed;
-        right: -150px;
-        margin-right:50px;
-        width: 500px;
-        float: right;
-        height: 100%;
-        min-width: px;
-        font-size: 25px;
-    
-    }
-
-
-}
-@media (max-height: 600px) {
-    .container{
-        max-width: 100%;
-        background-image: url("background1.jpg") ;
-        background-size: cover;
-        background-position: center;
-        height: 100%;
-    }
-    
-    .phone{
-        margin-top: 100px;
-        
-        display: flex;
-        
-    }
-
-    .tiktok{
-        margin-top: 0px;
-        
-        display: flex;
-    }
-    .insta{
-        margin-top: 0px;
-        
-        display: flex;
-    }
-    .telega{
-        margin-top: 0px;
-        
-        display: flex;
-    }
-    .google-map{
-        margin-top: 0px;
-        
-        display: flex;
-    }
-
-
-    .logo_phone{
-        width: 70px;
-        height: 70px;
-    }
-    .logo_telega{
-        width: 70px;
-        height: 70px;
-    }
-    .logo_insta{
-        width: 70px;
-        height: 70px;
-    }
-    .logo_tiktok{
-        width: 70px;
-        height: 70px;
-    }
-    .logo-google-map{
-        width: 70px;
-        height: 70px;
-    }
-}
-
-
-@media (max-width: 550px){
-    .container{
-        max-width: 100%;
-        background-image: url("background1.jpg") ;
-        background-size: cover;
-        
-        height: 100%;
-    }
-    .links-list a{
-        font-size: 20px;
-        font-family: DejaVu Sans Mono, monospace;
-    }
-
-    .links-list{
-        right:-250px;
-
-    }
-
-
- .phone{
-        margin-top: 80px;
-        
-        display: flex;
-        
-    }
-
-    .tiktok{
-        margin-top: 0px;
-        
-        display: flex;
-    }
-    .insta{
-        margin-top: 0px;
-        
-        display: flex;
-    }
-    .telega{
-        margin-top: 0px;
-        
-        display: flex;
-    }
-    .google-map{
-        margin-top: 0px;
-        
-        display: flex;
-    }
-
-
-    .logo_phone{
-        width: 70px;
-        height: 70px;
-    }
-    .logo_telega{
-        width: 70px;
-        height: 70px;
-    }
-    .logo_insta{
-        width: 70px;
-        height: 70px;
-    }
-    .logo_tiktok{
-        width: 70px;
-        height: 70px;
-    }
-    .logo-google-map{
-        width: 70px;
-        height: 70px;
-    }
-}
-
-
-@media (max-width: 300px){
-    .container{
-        max-width: 100%;
-        background-image: url("background1.jpg") ;
-        background-size: cover;
-        background-position: center;
-        height: 100%;
-    }
-    .links-list a{
-        text-align: right;
-        font-family:DejaVu Sans Mono, monospace;
-        text-decoration: none;
-        font-size: 20px;
-        padding: 5px;
-        color: white;;
-    }
-
-    .links-list{
-        position:fixed;
-        right: -60px;
-        margin-right:50px;
-        width: 300px;
-        float: right;
-        height: 100%;
-        min-width: px;
-    }
- .phone{
-        margin-top: 150px;
-        
-        display: flex;
-        
-    }
-    .info_phone{
-        margin-top: 10px;
-        padding: 22px;
-    }
-    .tiktok{
-        margin-top: 0px;
-        
-        display: flex;
-    }
-    .insta{
-        margin-top: 0px;
-        
-        display: flex;
-    }
-    .telega{
-        margin-top: 0px;
-        
-        display: flex;
-    }
-    .google-map{
-        margin-top: 0px;
-        
-        display: flex;
-    }
-
-
 }
