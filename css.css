@@ -30,7 +30,7 @@ body{
 }
 .links-list a{
     text-align: right;
-    font-family:cursive;
+    font-family:DejaVu Sans Mono, monospace ;
     text-decoration: none;
     
     color: #aded70;
@@ -147,7 +147,7 @@ body{
 @media (max-width: 1300px) {
     .links-list a{
         text-align: right;
-        font-family:cursive;
+        font-family:DejaVu Sans Mono, monospace;
         font-size: 30px;
         padding: 5px;
         color: #aded70;
@@ -192,7 +192,7 @@ body{
     }
     .links-list a{
         text-align: right;
-        font-family:cursive;
+        font-family:DejaVu Sans Mono, monospace;
         text-decoration: none;
         padding: 20px;
         color: #aded70;
@@ -269,7 +269,7 @@ body{
     }
     .links-list a{
         font-size: 25px;
-        font-family: cursive;
+        font-family: DejaVu Sans Mono, monospace;
     }
  .phone{
         margin-top: 80px;
@@ -339,7 +339,7 @@ body{
     }
     .links-list a{
         text-align: right;
-        font-family:cursive;
+        font-family:DejaVu Sans Mono, monospace;
         text-decoration: none;
         font-size: 20px;
         padding: 5px;
