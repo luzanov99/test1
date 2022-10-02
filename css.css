@@ -145,6 +145,13 @@ body{
 
 
 @media (max-width: 1300px) {
+    .container{
+        max-width: 100%;
+        background-image: url("background1.jpg") ;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+    }
     .links-list a{
         text-align: right;
         font-family:DejaVu Sans Mono, monospace;
@@ -175,7 +182,13 @@ body{
 
 
 @media (max-height: 600px) {
-
+    .container{
+        max-width: 100%;
+        background-image: url("background1.jpg") ;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+    }
 
     .phone{
         margin-top: 100px;
@@ -230,7 +243,13 @@ body{
 
 
 @media (max-width: 550px){
- 
+    .container{
+        max-width: 100%;
+        background-image: url("background1.jpg") ;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+    }
     .links-list a{
         font-size: 25px;
         font-family: DejaVu Sans Mono, monospace;
@@ -295,7 +314,13 @@ body{
 
 
 @media (max-width: 300px){
-   
+    .container{
+        max-width: 100%;
+        background-image: url("background1.jpg") ;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+    }
     .links-list a{
         text-align: right;
         font-family:DejaVu Sans Mono, monospace;
