@@ -33,7 +33,7 @@ body{
     font-family:DejaVu Sans Mono, monospace ;
     text-decoration: none;
     
-    color: #aded70;
+    color: white;
 }
 
 .links-list a:hover {
@@ -156,7 +156,7 @@ body{
         font-family:DejaVu Sans Mono, monospace;
         font-size: 25px;
         padding: 5px;
-        color: #aded70;
+        color:white;;
         text-decoration: none;
     }
     .phone{
@@ -177,8 +177,51 @@ body{
     }
 
 }
+@media (max-width: 850px) {
+    .links-list{
+        position:fixed;
+        right: -200px;
+        margin-right:50px;
+        width: 600px;
+        float: right;
+        height: 100%;
+        min-width: px;
+        font-size: 25px;
+    
+    }
 
+    
+}
+@media (max-width: 800px) {
+    .links-list{
+        position:fixed;
+        right: -100px;
+        margin-right:50px;
+        width: 500px;
+        float: right;
+        height: 100%;
+        min-width: px;
+        font-size: 25px;
+    
+    }
 
+    .telega{
+        margin-top: 10px;
+    }
+    .phone{
+        margin-top: 80px;
+    }
+
+    .google-map{
+        margin-top: 10px;
+    }
+    .tiktok{
+        margin-top: 10px;
+    }
+    .insta{
+        margin-top: 10px;
+    }
+}
 
 @media (max-height: 600px) {
     .container{
@@ -326,7 +369,7 @@ body{
         text-decoration: none;
         font-size: 20px;
         padding: 5px;
-        color: #aded70;
+        color: white;;
     }
 
     .links-list{
